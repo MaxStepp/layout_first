@@ -1,2 +1,2 @@
 # layout_first
-layout from  from scratch (HTML5 + CSS3)
+layout from scratch (HTML5 + CSS3)
