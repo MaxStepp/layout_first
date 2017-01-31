@@ -122,6 +122,10 @@ header{
         color: #58c93a;
         border-bottom: 3px solid #58c93a;
     }
+.content{
+    border-right: 1px solid #e1e0e0 ;
+    border-left: 1px solid #e1e0e0 ;
+}
 main{
     float: left;
     width: 62.5%;
@@ -181,6 +185,7 @@ aside{
         width: 100%;
         border: 1px solid #e1e0e0;
         padding: 15px 20px;
+        border-right: none;
     }
     .widget>nav{
         margin: 0 0 0 20px;
@@ -195,6 +200,7 @@ aside{
         position: absolute;
         top: 0;
         left: 0;
+        border-right: none;
     }
     .subscribe{
         position: relative;
@@ -207,5 +213,34 @@ aside{
         top: 12px;
 
     }
-
+    .pager{
+        border-top: 1px solid #e1e0e0;
+        font-size: 1.125em;
+        text-transform: uppercase;
+        font-weight: 600;
+        padding: 30px;
+    }
+        .pager a{
+            color: #818181;
+            text-decoration: none;
+        }
+        .pager a:hover{
+            text-decoration: underline;
+        }
+    .previous-link{
+        float: left;
+    }
+    .next-link{
+        float: right;
+    }
+footer{
+    background: #f8f8f8;
+    border-top: 1px solid #e1e0e0;
+    text-align: center;
+    font-size: 0.8125em;
+    padding: 50px;
+}
+    footer img{
+        margin-bottom: 20px;
+    }
 
