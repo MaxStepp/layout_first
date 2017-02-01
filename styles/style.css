@@ -264,10 +264,19 @@ footer{
         margin-top: 70px;
     }
     .logo{
-        margin-top: 20px;
+        margin: 50px;
     }
     .menu li a{
         padding: 25px 35px;
+        text-align: center;
+    }
+    .menu li {
+        box-sizing: border-box;
+        width: 50%;
+    }
+    .widget img{
+        display: block;
+        margin:0 auto;
     }
 }
 @media screen and (max-width: 620px){
